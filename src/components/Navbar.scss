@@ -102,22 +102,6 @@
 						}
 					}
 				}
-
-				&-link.active {
-					border-bottom: 2px solid #fff;
-
-					@media (max-width: 992px) {
-						border: none;
-					}
-
-					@media (max-width: 768px) {
-						border: none;
-					}
-
-					@media (max-width: 576px) {
-						border: none;
-					}
-				}
 			}
 		}
 
