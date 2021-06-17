@@ -1,0 +1,158 @@
+.contact-container {
+	padding: 4rem 2rem;
+
+	.contact-container-wrapper {
+		width: 80%;
+		margin: 0 auto;
+
+		@media (max-width: 992px) {
+			width: 85%;
+		}
+
+		@media (max-width: 768px) {
+			width: 90%;
+		}
+
+		.contact-heading {
+			font-size: 3rem;
+			text-align: center;
+			font-weight: 700;
+			margin-bottom: 1.5rem;
+
+			@media (max-width: 992px) {
+				font-size: 2.8rem;
+			}
+
+			@media (max-width: 768px) {
+				font-size: 2.6rem;
+			}
+
+			@media (max-width: 576px) {
+				font-size: 2.4rem;
+			}
+		}
+
+		.contact-text {
+			font-size: 2rem;
+			line-height: 1.5;
+			text-align: center;
+			font-weight: 300;
+
+			@media (max-width: 992px) {
+				font-size: 1.8rem;
+			}
+
+			@media (max-width: 768px) {
+				font-size: 1.6rem;
+			}
+
+			@media (max-width: 576px) {
+				font-size: 1.4rem;
+			}
+		}
+
+		.contact-form {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin-top: 3rem;
+
+			@media (max-width: 768px) {
+				flex-direction: column;
+			}
+
+			label {
+				display: flex;
+				flex-direction: column;
+				font-size: 1.8rem;
+				text-transform: uppercase;
+				font-weight: 700;
+
+				@media (max-width: 992px) {
+					font-size: 1.6rem;
+				}
+
+				@media (max-width: 768px) {
+					font-size: 1.4rem;
+				}
+
+				@media (max-width: 576px) {
+					font-size: 1.2rem;
+				}
+			}
+
+			&-left {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				width: 30%;
+
+				@media (max-width: 992px) {
+					width: 35%;
+				}
+
+				@media (max-width: 768px) {
+					width: 100%;
+				}
+
+				input {
+					font-family: 'Montserrat', sans-serif;
+					font-size: 1.6rem;
+					padding: 0.8rem 1.2rem;
+					border: 1px solid #cacaca;
+					border-radius: 3px;
+					outline: none;
+					margin-top: 0.1rem;
+
+					@media (max-width: 992px) {
+						font-size: 1.4rem;
+					}
+
+					@media (max-width: 768px) {
+						margin: 0.5rem 0 1.5rem;
+					}
+
+					&:focus {
+						border: 1px solid #6f6fff;
+					}
+				}
+			}
+
+			&-right {
+				display: flex;
+				flex-direction: column;
+				width: 60%;
+
+				@media (max-width: 768px) {
+					width: 100%;
+				}
+
+				textarea {
+					font-family: 'Montserrat', sans-serif;
+					font-size: 1.6rem;
+					padding: 0.8rem 1.2rem;
+					border: 1px solid #cacaca;
+					border-radius: 3px;
+					outline: none;
+					margin-top: 0.1rem;
+
+					@media (max-width: 992px) {
+						font-size: 1.4rem;
+						margin-top: 0.5rem;
+					}
+
+					&:focus {
+						border: 1px solid #6f6fff;
+					}
+				}
+			}
+
+			&-submit-btn-container {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				margin-top: 4rem;
+			}
+		}
+	}
+}

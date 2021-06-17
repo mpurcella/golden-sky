@@ -1,0 +1,135 @@
+.navbar-container {
+	width: 100%;
+	height: 8vh;
+	position: fixed;
+	z-index: 100;
+
+	.navbar {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		padding: 1.6rem 2rem;
+		box-sizing: border-box;
+
+		@media (max-width: 992px) {
+			justify-content: space-between;
+		}
+
+		&-logo-container {
+			width: 20%;
+
+			@media (max-width: 992px) {
+				width: auto;
+			}
+
+			.navbar-logo {
+				text-decoration: none;
+				font-size: 2.4rem;
+				font-family: 'Kaushan Script', cursive;
+			}
+		}
+
+		&-list {
+			width: 60%;
+			display: flex;
+			justify-content: center;
+			position: relative;
+
+			@media (max-width: 992px) {
+				position: absolute;
+				top: -100vh;
+				left: 0;
+				z-index: -100;
+				width: 100%;
+				height: 92vh;
+				flex-direction: column;
+				justify-content: center;
+				background-color: #0a0a0a;
+				transition: all 0.5s linear;
+			}
+
+			&-item {
+				list-style: none;
+				margin: 0 2.4rem;
+
+				@media (max-width: 1200px) {
+					margin: 0 2rem;
+				}
+
+				@media (max-width: 992px) {
+					width: 100%;
+					text-align: center;
+					margin: 0;
+				}
+
+				&-link {
+					text-decoration: none;
+					text-transform: uppercase;
+					font-size: 1.6rem;
+					font-weight: 200;
+					border-top: 2px solid transparent;
+					border-bottom: 2px solid transparent;
+					padding: 1rem 0;
+					box-sizing: border-box;
+					transition: all 0.3s linear;
+
+					@media (max-width: 992px) {
+						display: block;
+						font-size: 2.6rem;
+						width: 100%;
+						padding: 3rem;
+						box-sizing: border-box;
+						border: none;
+						font-weight: 500;
+					}
+
+					@media (max-width: 768px) {
+						font-size: 2.2rem;
+					}
+
+					@media (max-width: 576px) {
+						font-size: 1.8rem;
+					}
+
+					&:hover {
+						border-bottom: 2px solid #fff;
+						cursor: pointer;
+
+						@media (max-width: 992px) {
+							border: none;
+							background-color: #afafaf;
+						}
+					}
+				}
+
+				&-link.active {
+					border-bottom: 2px solid #fff;
+				}
+			}
+		}
+
+		.active {
+			top: 8vh;
+		}
+
+		&-name-container {
+			width: 20%;
+			display: flex;
+			justify-content: flex-end;
+
+			@media (max-width: 992px) {
+				display: none;
+			}
+
+			.navbar-name {
+				text-decoration: none;
+				font-size: 1.2rem;
+
+				&-span {
+					font-weight: 700;
+				}
+			}
+		}
+	}
+}

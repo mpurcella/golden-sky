@@ -1,0 +1,111 @@
+.footer-container {
+	padding: 1.6rem 2rem;
+
+	.footer-nav {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+
+		&-logo-container {
+			width: 33.3333%;
+
+			@media (max-width: 992px) {
+				width: initial;
+			}
+
+			.footer-nav-copyright {
+				font-size: 1.6rem;
+
+				@media (max-width: 768px) {
+					font-size: 1.4rem;
+				}
+
+				@media (max-width: 576px) {
+					font-size: 1rem;
+				}
+			}
+
+			.footer-nav-name {
+				font-family: 'Kaushan Script', cursive;
+				font-size: 1.6rem;
+				text-decoration: none;
+				margin: 0 0.4rem;
+
+				@media (max-width: 768px) {
+					font-size: 1.4rem;
+				}
+
+				@media (max-width: 576px) {
+					font-size: 1rem;
+				}
+			}
+		}
+
+		.footer-social-list-container {
+			width: 33.3333%;
+			display: flex;
+			justify-content: center;
+
+			@media (max-width: 992px) {
+				width: initial;
+			}
+
+			.footer-social-list {
+				display: flex;
+
+				&-item {
+					list-style: none;
+					margin: 0 1.5rem;
+
+					@media (max-width: 576px) {
+						margin: 0 1rem;
+					}
+
+					&-link {
+						display: flex;
+						align-items: center;
+						font-size: 1.8rem;
+
+						@media (max-width: 768px) {
+							font-size: 1.6rem;
+						}
+
+						@media (max-width: 576px) {
+							font-size: 1.2rem;
+						}
+					}
+				}
+			}
+		}
+
+		&-btn-container {
+			width: 33.3333%;
+			display: flex;
+			justify-content: flex-end;
+
+			@media (max-width: 992px) {
+				width: 100%;
+				justify-content: center;
+				margin-top: 2rem;
+			}
+
+			.footer-nav-theme-btn {
+				font-size: 1.4rem;
+				background-color: transparent;
+				outline: none;
+				border: 1px solid;
+				border-radius: 0.5rem;
+				padding: 0.6rem 1rem;
+
+				@media (max-width: 768px) {
+					font-size: 1.2rem;
+				}
+
+				@media (max-width: 576px) {
+					font-size: 1rem;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+.hamburger-icon {
+	color: #fff;
+	font-size: 2.8rem;
+	display: none;
+	align-items: center;
+
+	@media (max-width: 992px) {
+		display: flex;
+	}
+}
