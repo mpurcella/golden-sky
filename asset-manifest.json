@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/golden-sky/static/css/main.1b822ab9.chunk.css",
+    "main.js": "/golden-sky/static/js/main.2a0a4798.chunk.js",
+    "main.js.map": "/golden-sky/static/js/main.2a0a4798.chunk.js.map",
+    "runtime-main.js": "/golden-sky/static/js/runtime-main.c79d95ce.js",
+    "runtime-main.js.map": "/golden-sky/static/js/runtime-main.c79d95ce.js.map",
+    "static/js/2.dddb015c.chunk.js": "/golden-sky/static/js/2.dddb015c.chunk.js",
+    "static/js/2.dddb015c.chunk.js.map": "/golden-sky/static/js/2.dddb015c.chunk.js.map",
+    "index.html": "/golden-sky/index.html",
+    "static/css/main.1b822ab9.chunk.css.map": "/golden-sky/static/css/main.1b822ab9.chunk.css.map",
+    "static/js/2.dddb015c.chunk.js.LICENSE.txt": "/golden-sky/static/js/2.dddb015c.chunk.js.LICENSE.txt",
+    "static/media/Banner.scss": "/golden-sky/static/media/house14.f60d3569.jpeg",
+    "static/media/house10.bdd09e14.jpeg": "/golden-sky/static/media/house10.bdd09e14.jpeg",
+    "static/media/house13.704e9065.jpg": "/golden-sky/static/media/house13.704e9065.jpg",
+    "static/media/house15.66cb7462.jpeg": "/golden-sky/static/media/house15.66cb7462.jpeg",
+    "static/media/house16.39217f76.jpeg": "/golden-sky/static/media/house16.39217f76.jpeg",
+    "static/media/house17.abcec3b6.jpeg": "/golden-sky/static/media/house17.abcec3b6.jpeg",
+    "static/media/house19.80ce67fd.jpeg": "/golden-sky/static/media/house19.80ce67fd.jpeg",
+    "static/media/house9.878f591c.jpeg": "/golden-sky/static/media/house9.878f591c.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c79d95ce.js",
+    "static/js/2.dddb015c.chunk.js",
+    "static/css/main.1b822ab9.chunk.css",
+    "static/js/main.2a0a4798.chunk.js"
+  ]
+}
