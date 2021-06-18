@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/golden-sky/static/css/main.60e2fc29.chunk.css",
+    "main.css": "/golden-sky/static/css/main.a3da4d75.chunk.css",
     "main.js": "/golden-sky/static/js/main.2a0a4798.chunk.js",
     "main.js.map": "/golden-sky/static/js/main.2a0a4798.chunk.js.map",
     "runtime-main.js": "/golden-sky/static/js/runtime-main.c79d95ce.js",
@@ -8,7 +8,7 @@
     "static/js/2.dddb015c.chunk.js": "/golden-sky/static/js/2.dddb015c.chunk.js",
     "static/js/2.dddb015c.chunk.js.map": "/golden-sky/static/js/2.dddb015c.chunk.js.map",
     "index.html": "/golden-sky/index.html",
-    "static/css/main.60e2fc29.chunk.css.map": "/golden-sky/static/css/main.60e2fc29.chunk.css.map",
+    "static/css/main.a3da4d75.chunk.css.map": "/golden-sky/static/css/main.a3da4d75.chunk.css.map",
     "static/js/2.dddb015c.chunk.js.LICENSE.txt": "/golden-sky/static/js/2.dddb015c.chunk.js.LICENSE.txt",
     "static/media/Banner.scss": "/golden-sky/static/media/house14.f60d3569.jpeg",
     "static/media/house10.bdd09e14.jpeg": "/golden-sky/static/media/house10.bdd09e14.jpeg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.c79d95ce.js",
     "static/js/2.dddb015c.chunk.js",
-    "static/css/main.60e2fc29.chunk.css",
+    "static/css/main.a3da4d75.chunk.css",
     "static/js/main.2a0a4798.chunk.js"
   ]
 }
